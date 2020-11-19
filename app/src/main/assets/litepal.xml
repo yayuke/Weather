@@ -1,0 +1,14 @@
+<litepal>
+<!--    数据库名字-->
+    <dbname value="weather"/>
+<!--    数据库版本-->
+    <version value="1"/>
+    <list>
+        <!--        添加City实体类到映射列表中-->
+        <mapping class="com.example.weather.db.City"/>
+        <!--        添加County实体类到映射列表中-->
+        <mapping class="com.example.weather.db.County"/>
+        <!--        添加Province实体类到映射列表中-->
+        <mapping class="com.example.weather.db.Province"/>
+    </list>
+</litepal>
